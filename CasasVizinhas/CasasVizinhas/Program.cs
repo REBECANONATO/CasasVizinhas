@@ -8,44 +8,49 @@ namespace CasasVizinhas
         {
             int[] houses = new int[8] { 1, 0, 1, 0, 0, 0, 1, 1 };
 
-            Console.WriteLine(Solution.CellCompete(houses, 5));
+            var states = Solution.CellCompete(houses, 5);
+            foreach (int state in states)
+            {
+                Console.WriteLine(state);
+            }
         }
     }
     public class Solution
     {
         public static int[] CellCompete(int[] states, int days)
         {
-            int leftNeighbor = 0;
-            int rightNeighbor = 0;
-            int[] previousState = null;
+            int leftCell = 0;
+            int rightCell = 0;
+            int[] nowStates = null;
 
-            for (int i = 0; i < days; i++)
+            for (int day = 0; day < days; day++)
             {
-                previousState = states.Clone() as int[];
-                for (int j = 0; j < states.Length; j++)
+                nowStates = states.Clone() as int[];
+                for (int state = 0; state < states.Length; state++)
                 {
-                    if (j == 0)
+                    if (state == 0)
                     {
-                        leftNeighbor = 0;
-                        rightNeighbor = previousState[j + 1];
+                        if (leftCell == nowStates[state + 1])
+                            states[state] = 0;
+                        else
+                            states[state] = 1;
                     }
-                    else if (j == states.Length - 1)
+                    else if (state == nowStates.Length - 1)
                     {
-                        leftNeighbor = previousState[j - 1];
-                        rightNeighbor = 0;
+                        if (rightCell == nowStates[state - 1])
+                            states[state] = 0;
+                        else
+                            states[state] = 1;
                     }
                     else
                     {
-                        leftNeighbor = previousState[j - 1];
-                        rightNeighbor = previousState[j + 1];
+                        if (nowStates[state - 1] == nowStates[state + 1])
+                            states[state] = 0;
+                        else
+                            states[state] = 1;
                     }
-
-                    states[j] = 1;
-                    if (leftNeighbor == rightNeighbor)
-                        states[j] = 0;
                 }
             }
-
             return states;
         }
     }
