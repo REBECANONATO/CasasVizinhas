@@ -1,0 +1,13 @@
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\bin\Debug\netcoreapp3.1\CasasVizinhas.exe
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\bin\Debug\netcoreapp3.1\CasasVizinhas.deps.json
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\bin\Debug\netcoreapp3.1\CasasVizinhas.runtimeconfig.json
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\bin\Debug\netcoreapp3.1\CasasVizinhas.runtimeconfig.dev.json
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\bin\Debug\netcoreapp3.1\CasasVizinhas.dll
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\bin\Debug\netcoreapp3.1\CasasVizinhas.pdb
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.AssemblyInfoInputs.cache
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.AssemblyInfo.cs
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.csproj.CoreCompileInputs.cache
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.dll
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.pdb
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.genruntimeconfig.cache
+D:\GitHub\Projetos_Desafios\CasasVizinhas\CasasVizinhas\CasasVizinhas\obj\Debug\netcoreapp3.1\CasasVizinhas.csprojAssemblyReference.cache
